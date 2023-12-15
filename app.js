@@ -23,7 +23,7 @@ app.get('/', (req, res) =>
 		    console.log('location.host: ', location.host);
 			
             loadPlayer({
-                url: 'wss://' + location.host + '/api/stream',
+                url: 'ws://' + location.host + '/api/stream',
                 canvas: document.getElementById('canvas')
             });
         </script>
