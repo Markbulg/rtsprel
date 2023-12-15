@@ -1,0 +1,27 @@
+{
+  "name": "rtsprel",
+  "version": "1.0.0",
+  "engines": {
+    "node": "17.x"
+  },
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.15.2",
+	"rtsp-relay": "^1.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Markbulg/rtsprel"
+  },
+  "keywords": [
+    "node",
+    "express",
+	"rtsprel"
+  ],
+  "license": "MIT"
+}
