@@ -14,9 +14,13 @@
     "express": "^4.15.2",
 	"rtsp-relay": "^1.8.0"
   },
+  "devDependencies": {
+    "got": "^11.3.0",
+    "tape": "^4.7.0"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Markbulg/rtsprel"
+    "url": "https://github.com/markbulg/rtsprel"
   },
   "keywords": [
     "node",
